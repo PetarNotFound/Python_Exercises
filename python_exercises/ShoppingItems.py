@@ -16,7 +16,7 @@ while True:
 
     elif user_input == "2":
         if not items:
-            print("You have not items")
+            print("You have no items")
         else:
             index = 1
             for item in items:
