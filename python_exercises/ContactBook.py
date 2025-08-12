@@ -28,3 +28,5 @@ if search_choice.lower() == "yes":
             break
         if not found:
             print("\nContact not found.")
+
+            ## so pomos na chatgpt :skull: 
