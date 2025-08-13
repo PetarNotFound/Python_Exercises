@@ -27,11 +27,11 @@ while True:
     elif user_input.lower() == "view":
         print("\nIncomplete Tasks:")
         for idx, task in enumerate(incomplete_tasks, start=1):
-            print(f"{idx}. {task['task']} (Due: {task['deadline']})")
+            print(f"{idx}. {task["task"]} (Due: {task["deadline"]})")
 
         print("\nComplete Tasks:")
         for idx, task in enumerate(complete_tasks, start=1):
-            print(f"{idx}. {task['task']} (Due: {task['deadline']})")
+            print(f"{idx}. {task["task"]} (Due: {task["deadline"]})")
 
     elif user_input.lower() == "quit":
         print("Exiting")
